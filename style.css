@@ -1,3 +1,25 @@
+body {
+  background-color: antiquewhite;
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 900
+
+  .montserrat-<uniquifier > {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+}
+
+.weather-app {
+  background: white;
+  max-width: 600px;
+  margin: 30px auto;
+  box-shadow: 0 30px 50px rgba(red, green, blue, alpha);
+  border-radius: 16px;
+  padding: 30px;
+}
+
 /* Margin around the element */
 .box-1 {
   margin: 10px;
