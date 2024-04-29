@@ -12,7 +12,7 @@ main {
   padding: 30px;
 }
 .weather-app {
-  background: white;
+  background: rgb(203, 243, 248);
   max-width: 600px;
   margin: 30px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -21,7 +21,7 @@ main {
 }
 
 .search-form-input {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -52,7 +52,7 @@ main {
 }
 
 .weather-app-details strong {
-  color: palevioletred;
+  color: rgb(107, 9, 42);
 }
 
 .weather-app-temp-container {
