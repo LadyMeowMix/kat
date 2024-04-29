@@ -1,18 +1,16 @@
 body {
   background-color: antiquewhite;
-  @font-face {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    src: url(https://fonts.google.com/specimen/Montserrat);
-  }
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+
 a {
   color: antiquewhite;
 }
 
-search-form-input {
+.search-form-input {
   background-color: black;
   border: none;
   border-radius: 6px;
@@ -21,7 +19,7 @@ search-form-input {
   padding: 15px 20px;
 }
 
-search-form-button {
+.search-form-button {
   background-color: cadetblue;
   padding: 15px 30px;
   border: none;
@@ -30,7 +28,8 @@ search-form-button {
   border-radius: 6px;
   color: white;
 }
-weather-app-city {
+
+.weather-app-city {
   margin: none;
   font-size: 38px;
   line-height: 48px;
