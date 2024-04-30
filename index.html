@@ -13,14 +13,14 @@
   <body>
     <div class="weather-app">
     <header>
-      <form class="search-form">
-        <input type="search" placeholder="Enter a City" required class="search-form-input" />
+      <form class="search-form" id="search-form">
+        <input type="search" placeholder="Enter a City" required class="search-form-input" id="search-form-input"/>
         <input type="submit" value="Search" class="search-form-button" />
       </form>
     </header>
     <main>
       <div class="weather-app-data">
-      <h1 class="weather-app-city">Haddonfield</h1>
+      <h1 class="weather-app-city" id="city">Haddonfield</h1>
       <p class="weather-app-details">
         Sunday 8:08pm, clear <br />
         Humidity:<strong>66%</strong>, Wind<strong>1.1km/h</strong>
@@ -36,5 +36,6 @@
           <a href="https://katsshecodes.netlify.app/" target="_blank">hosted on netlify.</a>
     </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
