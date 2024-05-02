@@ -72,6 +72,16 @@ main {
   margin-top: 22px;
 }
 
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.weather-forecast-day {
+  text-align: center;
+  font-size: 16px;
+}
+
 .weather-app-unit {
   margin-top: 10px;
   font-size: 20px;
